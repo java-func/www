@@ -1,3 +1,16 @@
+readme.logs.txt
+logs.txt
+out.md
+plainedit
+plainedit/
+*/out.md
+*/*.sh
+*/*.bash
+*/*.php
+*/*.js
+*/*.java
+.bash
+.idea
 # Logs
 logs
 *.log
