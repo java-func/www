@@ -14,7 +14,7 @@ The same, with folders
 
 Config Path where the project folder exist, **PlainEdit** can be executed from another bash script with defined path
 ```bash
-./plainedit.sh --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
+./plainedit.sh --path "/media/tom/projects/java-func/www/1" "in.md" "out.md"
 ```
 
 Authorisation

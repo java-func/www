@@ -14,15 +14,15 @@
 ## Install [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/java-func/www/edit/main/DOCS/INSTALL.md)
 
 
-Clone the project: **plainedit/examples** from **github**:
+Clone the project: **java-func/www** from **github**:
 ```bash
-git clone https://github.com/plainedit/examples.git
+git clone https://github.com/java-func/www.git
 ```
 
 
-Go to the project folder **example** where the project where cloned:
+Go to the project folder **www** where the project where cloned:
 ```bash
-cd examples
+cd www
 ```
 
 Start script **install.sh**  from repo: **https://github.com/plainedit/bash.git**
@@ -53,7 +53,7 @@ The same, with folders
 
 Config Path where the project folder exist, **PlainEdit** can be executed from another bash script with defined path
 ```bash
-./plainedit.sh --path "/media/tom/projects/plainedit/examples/1" "in.md" "out.md"
+./plainedit.sh --path "/media/tom/projects/java-func/www/1" "in.md" "out.md"
 ```
 
 Authorisation
@@ -91,11 +91,6 @@ combine, publish, open browser
 
 
 ## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/java-func/www/edit/main/DOCS/TODO.md)
-
-+ przykłady funkcji w shellu
-  + grep
-  + find
-  +  
 
 
 
