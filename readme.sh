@@ -29,7 +29,7 @@ for FILE in */in.md; do
   NAME=${FILE%%/*}
   URL=$DOMAIN/$NAME
   echo "+ [$NAME $line](http://$URL)" >> DOCS/PROJECTS.md
-  echo "+ [$NAME $line]($LOCAL_PATH/$NAME/index.html)" >> DOCS/PROJECTS_LOCAL.md
+  echo "+ [$NAME $line](/$LOCAL_PATH/$NAME/index.html)" >> DOCS/PROJECTS_LOCAL.md
 done
 
 ## combine from another sites
