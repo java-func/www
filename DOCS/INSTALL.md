@@ -24,3 +24,11 @@ Update works such **git pull** for bash repo: **https://github.com/plainedit/bas
 ```
 
 
+## Optional script to clean folders
+
+After you build all files just remove data files in projects to clean disc from temporary files
+```bash
+./clean.sh
+```
+
+

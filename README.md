@@ -36,6 +36,14 @@ Update works such **git pull** for bash repo: **https://github.com/plainedit/bas
 ```
 
 
+## Optional script to clean folders
+
+After you build all files just remove data files in projects to clean disc from temporary files
+```bash
+./clean.sh
+```
+
+
 
 
 ## START [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/java-func/www/edit/main/DOCS/START.md)
@@ -46,14 +54,9 @@ The same, with folders
 ./plainedit.sh "1/in.md" "1/out.md" 
 ```
 
-The same, with folders
-```bash
-./plainedit.sh "1/in.md" "1/out.md" 
-```
-
 Config Path where the project folder exist, **PlainEdit** can be executed from another bash script with defined path
 ```bash
-./plainedit.sh --path "/media/tom/projects/java-func/www/1" "in.md" "out.md"
+./plainedit.sh --path "/media/tom/projects/bashfunc/www/1" "in.md" "out.md"
 ```
 
 Authorisation
@@ -62,12 +65,6 @@ Authorisation
 ```
 
 
-## Optional script to clean folders
-
-After you build all files just remove data files in projects to clean disc from temporary files
-```bash
-./clean.sh
-```
 
 ## EXAMPLES [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/java-func/www/edit/main/DOCS/EXAMPLES.md)
 
@@ -78,16 +75,23 @@ After you build all files just remove data files in projects to clean disc from 
 
 ## DOCS [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/java-func/www/edit/main/DOCS/DOCS.md)
 
-Jak pracować z dokumentacją?
+How to update all projects and docsumentation?
+```bash
+./update_all_projects.sh
+```
+
+Or just one project:
+
+```bash
+./plainedit.sh 1 
+```
 
 
-combine, publish, open browser
+Or just documention: combine, publish, open browser
 
 ```bash
 ./readme.sh
 ```
-
-
 
 
 ## TODO [<span style='font-size:20px;'>&#x270D;</span>](https://github.com/java-func/www/edit/main/DOCS/TODO.md)
